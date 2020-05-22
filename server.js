@@ -359,6 +359,11 @@ var CONFIG = {
     console.log("**************************" + s3.endpoint + "***********************************\n");
 
     var textContent;
+
+    /**
+     * var path = require('path');
+       uploadParams.Key = path.basename("dosya adı");
+     */
     fs.readFile("1522672075.291220.mp3", function(err, data) {
 
       if (err){
